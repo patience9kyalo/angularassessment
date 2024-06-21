@@ -1,0 +1,6 @@
+<div class="InputField">
+    <input [(ngModel)]="inputValue" placeholder="Enter Text"/>
+    <p [ngClass]="{'error': isError}" [ngStyle]="{'color': isError ? 'red' : 'black'}">
+        {{ inputValue | placeholder:'Please enter at least 3 characters':3 | uppercase}}
+    </p>
+</div>

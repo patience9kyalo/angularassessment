@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  div[appTalkative] {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 40px;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  div[appTalkative]:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  app-wheel, app-input {
+    display: block;
+    margin-top: 20px;
+    background-color: #45a049;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    width: 50%;
+  }
+
+  app-wheel:hover, app-input:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  app-input {
+    margin-top: 10px;
+  }
